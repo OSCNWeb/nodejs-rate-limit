@@ -1,5 +1,5 @@
 {
-  "name": "nodejs",
+  "name": "api-rate-limiter-by-key",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4",
+    "express-limiter": "^1.6.1",
     "redis": "^2.8.0"
   }
 }
